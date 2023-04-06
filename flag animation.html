@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flag animation </title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            background-color: black;
+        }
+
+        .rod {
+            height: 550px;
+            width: 10px;
+            background-color: brown;
+            border-radius: 30%;
+            position: relative;
+            margin-left: 60%;
+            margin-top: 50px;
+        }
+
+        .orange {
+            margin-top: 254+4487110px;
+            height: 50px;
+            width: 200px;
+            background-color: orangered;
+            position: relative;
+            margin-left: 8px;
+            box-shadow: 5px 0px 10px orangered;
+            /* border: 1px solid black; */
+            border-radius: 2px;
+            animation-name: first;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+
+        }
+
+        @keyframes first {
+            0% {
+                width: 0px;
+            }
+
+            25% {
+                width: 200px;
+            }
+
+            75% {
+                width: 200px;
+            }
+
+            100% {
+                width: 0px;
+            }
+        }
+
+        .white {
+            height: 50px;
+            width: 200px;
+            background-color: white;
+            position: relative;
+            margin-left: 8px;
+            box-shadow: 5px 0px 10px white;
+            /* border: 1px solid black; */
+            border-radius: 2px;
+            animation-name: second;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-delay: .2s;
+
+
+        }
+
+        @keyframes second {
+            0% {
+                width: 0px;
+            }
+
+            25% {
+                width: 200px;
+            }
+
+            75% {
+                width: 200px;
+            }
+
+            100% {
+                width: 0px;
+            }
+        }
+
+
+        .ashok {
+            height: 45px;
+            width: 45px;
+            background-image: url(image/download.png);
+            background-size: cover;
+            margin-left: 70px;
+            animation-name: chakra;
+            animation-duration: 4s;
+            animation-delay: .2s;
+            animation-iteration-count: infinite;
+            border-radius: 50%;
+        }
+
+        @keyframes chakra {
+            0% {
+                opacity: 0;
+            }
+
+            30% {
+                opacity: 0;
+                transform: rotate(0deg);
+            }
+
+            60% {
+                opacity: 1;
+                transform: rotate(360deg);
+            }
+
+            80% {
+                opacity: 1;
+                transform: rotate(360deg);
+            }
+
+            90% {
+                opacity: 0;
+                transform: rotate(0deg);
+            }
+
+            100% {
+                opacity: 0;
+            }
+        }
+
+        .green {
+            height: 50px;
+            width: 200px;
+            background-color: green;
+            position: relative;
+            margin-left: 8px;
+            box-shadow: 5px 5px 10px green;
+            /* border: 1px solid black; */
+            border-radius: 2px;
+            animation-name: second;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-delay: .4s;
+        }
+
+        @keyframes second {
+            0% {
+                width: 0px;
+            }
+
+            25% {
+                width: 200px;
+            }
+
+            75% {
+                width: 200px;
+            }
+
+            100% {
+                width: 0px;
+            }
+        }
+
+        .text {
+            height: 200px;
+            width: 400px;
+            color: rgb(60, 13, 230);
+            position: relative;
+            border-top: 5px solid green;
+            border-bottom: 5px solid green;
+            border-left: 5px solid orange;
+            border-right: 5px solid orange;
+            margin: -500px 0 0 250px;
+            font-size: 50px;
+            font-style: italic;
+            text-align: center;
+            animation-name: in;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes in {
+            0% {
+                color: orange;
+            }
+
+            50% {
+                background-color: white;
+            }
+
+            100% {
+                background-color: green;
+            }
+        }
+        .bottom{
+            height: 20px;
+            width: 100px;
+            border: 2px solid brown;
+            margin: 400px 0 0 -50px;
+            background-color: coral;
+        }
+        .bottom1{
+            height: 30px;
+            width: 120px;
+            border: 2px solid brown;
+            margin: 0px 0 0 -60px;
+            background-color: coral;
+        }
+        .bottom2{
+            height: 35px;
+            width: 140px;
+            border: 2px solid brown;
+            margin: 0px 0 0 -70px;
+            background-color: coral;s
+        }
+        .top{
+            height: 20px;
+            width: 20px;
+            background-color: gold;
+            position: relative;
+            margin: -655px 0px 0px -6px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="rod">
+        <div class="orange"></div>
+        <div class="white">
+            <div class="ashok"></div>
+        </div>
+        <div class="green"></div>
+        <div class="bottom"></div>
+        <div class="bottom1"></div>
+        <div class="bottom2"></div>
+        <div class="top"></div>
+    </div>
+    <div class="text">
+        Happy <br> Independence <br> Day
+
+    </div>
+
+</body>
+
+</html>
