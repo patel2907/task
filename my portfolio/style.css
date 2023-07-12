@@ -1,0 +1,579 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+    background-image: url(image/pexels-miguel-á-padriñán-19670.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nevbar {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 10px 0;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 60px;
+    width: 30%;
+    cursor: help;
+}
+.logo:hover{
+    background-color: black;
+    width: 20%;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    padding: 10px 10px;
+    color: teal;
+    font-weight: bold;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+li a:hover {
+    color: brown;
+    background-color: cadetblue;
+}
+
+/* .textarea {
+    display: flex;
+    height: 500px;
+    width: 100%;
+} */
+
+.text {
+    margin: 200px 200px;
+    width: 33%;
+    position: relative;
+}
+
+h1 {
+    font-size: 35px;
+    color: blueviolet;
+}
+
+h1:hover {
+    opacity: 0;
+}
+
+h2 {
+    font-size: 40px;
+    color: brown;
+}
+
+h2:hover {
+    opacity: 0;
+}
+
+h3 {
+    font-size: 60px;
+}
+
+h3:hover {
+    opacity: 0;
+}
+
+span {
+    color: blue;
+    text-shadow: 5px 5px 2px red;
+    margin-right: 3px;
+}
+
+h4 {
+    color: teal;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+h4:hover {
+    opacity: 0;
+}
+
+div text:hover {
+    opacity: 0;
+}
+
+.image {
+    height: 83vh;
+    width: 26%;
+    position: absolute;
+    margin: -580px 10px 0 900px;
+    background-image: url(image/IMG_8799-removebg-preview\ \(2\).png);
+    background-size: 270px;
+    background-repeat: no-repeat;
+    transform: rotate(15deg);
+    filter: contrast(150%);
+
+}
+.image:hover{
+    transform: rotate(40deg);
+}
+
+.about {
+    height: 100vh;
+    width: 100%;
+    background-image: url(image/pexels-miguel-á-padriñán-19670.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.aboutimage {
+    position: relative;
+    float: right;
+    height: 400px;
+    margin: 100px 100px 0 0;
+    filter: grayscale(100%);
+}
+
+.aboutimage:hover {
+    filter: grayscale(0%);
+}
+
+.abouttext {
+    position: absolute;
+    margin: 200px;
+    0 0 100px
+}
+
+h5 {
+    font-size: 30px;
+    text-decoration: underline;
+    color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h6 {
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: teal;
+}
+
+button {
+    margin: 20px 0 0 30px;
+    height: 40px;
+    width: 120px;
+    background-color: cadetblue;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+button a:hover {
+    color: chartreuse;
+}
+
+.contact {
+    height: 100vh;
+    width: 100%;
+    background-image: url(image/pexels-miguel-á-padriñán-19670.jpg);
+    background-size: cover;
+}
+
+.fa-phone-volume {
+    font-size: 30px;
+    margin: 200px 0 0 20px;
+    position: absolute;
+}
+
+.fa-envelope {
+    font-size: 30px;
+    margin: 230px 0 0 20px;
+    position: absolute;
+}
+
+.fa-instagram {
+    font-size: 50px;
+    margin: 280px 0 0 20px;
+    position: absolute;
+}
+
+.fa-instagram:hover {
+    background-color: black;
+    border-radius: 10px;
+    opacity: .4;
+}
+
+.fa-facebook {
+    font-size: 50px;
+    margin: 280px 0 0 80px;
+    position: absolute;
+}
+
+.fa-facebook:hover {
+    background-color: black;
+    border-radius: 10px;
+    opacity: .4;
+}
+
+.fa-twitter {
+    font-size: 50px;
+    margin: 280px 0 0 140px;
+    position: absolute;
+}
+
+.fa-twitter:hover {
+    background-color: black;
+    border-radius: 10px;
+    opacity: .4;
+}
+.fa-github {
+    font-size: 50px;
+    margin: 280px 0 0 200px;
+    position: absolute;
+}
+.fa-github:hover{
+    background-color: black;
+    border-radius: 10px;
+    opacity: .4;
+}
+
+.top {
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: transparent;
+    color: red;
+    font-size: 60px;
+    position: fixed;
+    right: 5px;
+    bottom: 12px;
+    /* margin: -1305px 0 0 1240px; */
+
+    opacity: .4;
+}
+.top:hover{
+background-color: blueviolet;
+border: 5px dotted black;
+}
+.map{
+    height: 550px;
+    width: 650px;
+    background-color:transparent;
+    margin: 80px 0 0 630px;
+    padding-bottom: 10px;
+}
+.location{
+    margin: -630px 0 0 800px;
+    font-size: 50px;
+}
+
+/* meadia query start */
+
+@media (min-width:320px) and (max-width:480px) 
+{
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    html{
+        scroll-behavior: smooth;
+    }
+    
+    .main {
+        height: 100vh;
+        width: 100%;
+        background-image: url(image/pexels-miguel-á-padriñán-19670.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .nevbar {
+        width: 95%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: auto;
+        padding: 2px 0;
+        justify-content: space-between;
+    }
+    
+    .logo {
+        height: 50px;
+        width: 50%;
+        cursor: help;
+    }
+    
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+    
+    li {
+        list-style: none;
+    }
+    
+    li a {
+        padding: 2px 2px;
+        color: teal;
+        font-weight: bold;
+        padding: 20px 5px;
+        text-decoration: none;
+        font-size: 13px;
+    }
+    
+    li a:hover {
+        color: brown;
+        background-color: cadetblue;
+    }
+    
+    
+    .text {
+        margin: 180px 20px;
+        width: 60%;
+        position: relative;
+    }
+    
+    h1 {
+        font-size: 25px;
+        color: blueviolet;
+    }
+    
+    h1:hover {
+        opacity: 0;
+    }
+    
+    h2 {
+        font-size: 30px;
+        color: brown;
+    }
+    
+    h2:hover {
+        opacity: 0;
+    }
+    
+    h3 {
+        font-size: 35px;
+    }
+    
+    h3:hover {
+        opacity: 0;
+    }
+    
+    span {
+        color: blue;
+        text-shadow: 2px 2px 2px red;
+        margin-right: 2px;
+    }
+    
+    h4 {
+        color: teal;
+        margin-left: 5px;
+        margin-top: 5px;
+        font-size: 15px;
+    }
+    
+    h4:hover {
+        opacity: 0;
+    }
+    
+    div text:hover {
+        opacity: 0;
+    }
+    
+    .image {
+        height: 80vh;
+        width: 26%;
+        position: absolute;
+        margin: -400px 0 0 250px;
+        background-image: url(image/IMG_8799-removebg-preview\ \(2\).png);
+        background-size: 110px;
+        background-repeat: no-repeat;
+        transform: rotate(15deg);
+        filter: contrast(150%);
+    
+    }
+    .image:hover{
+        transform: rotate(30deg);
+    }
+    
+    .about {
+        height: 100vh;
+        width: 100%;
+        background-image: url(image/pexels-miguel-á-padriñán-19670.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .aboutimage {
+        position: relative;
+        float: right;
+        height: 200px;
+        margin: 30px 100px 0 0;
+        filter: grayscale(100%);
+    }
+    
+    .aboutimage:hover {
+        filter: grayscale(0%);
+    }
+    
+    .abouttext {
+        position: absolute;
+        margin: 250px 0 0 5px;
+        
+    }
+    
+    h5 {
+        font-size: 30px;
+        text-decoration: underline;
+        color: blueviolet;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    h6 {
+        font-size: 15px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: teal;
+    }
+    
+    button {
+        margin: 20px 0 0 3px;
+        height: 40px;
+        width: 120px;
+        background-color: cadetblue;
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+    
+    button a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+    
+    button:hover {
+        background-color: blue;
+    }
+    
+    button a:hover {
+        color: chartreuse;
+    }
+    
+    .contact {
+        height: 100vh;
+        width: 100%;
+        background-image: url(image/pexels-miguel-á-padriñán-19670.jpg);
+        background-size: cover;
+    }
+    
+    .fa-phone-volume {
+        font-size: 30px;
+        margin: 300px 0 0 3px;
+        position: absolute;
+    }
+    
+    .fa-envelope {
+        font-size: 25px;
+        margin: 350px 0 0 3px;
+        position: absolute;
+    }
+    
+    .fa-instagram {
+        font-size: 50px;
+        margin: 400px 0 0 20px;
+        position: absolute;
+    }
+    
+    .fa-instagram:hover {
+        background-color: black;
+        border-radius: 10px;
+        opacity: .4;
+    }
+    
+    .fa-facebook {
+        font-size: 50px;
+        margin: 400px 0 0 80px;
+        position: absolute;
+    }
+    
+    .fa-facebook:hover {
+        background-color: black;
+        border-radius: 10px;
+        opacity: .4;
+    }
+    
+    .fa-twitter {
+        font-size: 50px;
+        margin: 400px 0 0 140px;
+        position: absolute;
+    }
+    
+    .fa-twitter:hover {
+        background-color: black;
+        border-radius: 10px;
+        opacity: .4;
+    }
+    .fa-github {
+        font-size: 50px;
+        margin: 400px 0 0 200px;
+        position: absolute;
+    }
+    .fa-github:hover{
+        background-color: black;
+        border-radius: 10px;
+        opacity: .4;
+    }
+    
+    .top {
+        height: 50px;
+        width: 50px;
+        border: 2px solid black;
+        border-radius: 50%;
+        background-color: transparent;
+        color: red;
+        font-size: 60px;
+        position: fixed;
+        right: 832px;
+        bottom: 82px;
+        /* margin: -1305px 0 0 1240px; */
+    
+        opacity: .4;
+    }
+    .top:hover{
+    background-color: blueviolet;
+    border: 5px dotted black;
+    }
+    .map{
+        height: 250px;
+        width: 380px;
+        background-color:transparent;
+        margin: 30px 0 0 25px;
+    }
+    .location{
+        margin: -290px 0 0 120px;
+        font-size: 30px;
+    }
+}
